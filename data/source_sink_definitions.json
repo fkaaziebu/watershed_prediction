@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "S3": {
+      "magnitude": 8.0,
+      "type": "agricultural_runoff",
+      "description": "Farm runoff, fertilizer"
+    },
+    "S6": {
+      "magnitude": 6.0,
+      "type": "urban_stormwater",
+      "description": "Urban runoff after rain"
+    },
+    "S10": {
+      "magnitude": 5.0,
+      "type": "wastewater",
+      "description": "Treated wastewater discharge"
+    }
+  },
+  "sinks": {
+    "S8": {
+      "magnitude": -4.5,
+      "type": "wetland",
+      "description": "Wetland natural filtering"
+    },
+    "S12": {
+      "magnitude": -3.0,
+      "type": "forest_buffer",
+      "description": "Forest riparian zone"
+    }
+  }
+}

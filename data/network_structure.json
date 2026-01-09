@@ -1,0 +1,200 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "headwater",
+      "land_use": "forest",
+      "lat": 40.0,
+      "lon": -75.0,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S1"
+    },
+    {
+      "type": "tributary",
+      "land_use": "forest",
+      "lat": 39.9,
+      "lon": -75.0,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S4"
+    },
+    {
+      "type": "headwater",
+      "land_use": "forest",
+      "lat": 40.1,
+      "lon": -75.1,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S2"
+    },
+    {
+      "type": "headwater",
+      "land_use": "agriculture",
+      "lat": 40.0,
+      "lon": -74.9,
+      "source_sink": 8.0,
+      "role": "source",
+      "id": "S3"
+    },
+    {
+      "type": "tributary",
+      "land_use": "agriculture",
+      "lat": 39.9,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S5"
+    },
+    {
+      "type": "main_stem",
+      "land_use": "forest",
+      "lat": 39.8,
+      "lon": -75.0,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S7"
+    },
+    {
+      "type": "main_stem",
+      "land_use": "wetland",
+      "lat": 39.7,
+      "lon": -74.9,
+      "source_sink": -4.5,
+      "role": "sink",
+      "id": "S8"
+    },
+    {
+      "type": "tributary",
+      "land_use": "urban",
+      "lat": 39.8,
+      "lon": -74.8,
+      "source_sink": 6.0,
+      "role": "source",
+      "id": "S6"
+    },
+    {
+      "type": "main_stem",
+      "land_use": "agriculture",
+      "lat": 39.6,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S9"
+    },
+    {
+      "type": "main_stem",
+      "land_use": "urban",
+      "lat": 39.5,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S11"
+    },
+    {
+      "type": "tributary",
+      "land_use": "urban",
+      "lat": 39.6,
+      "lon": -74.8,
+      "source_sink": 5.0,
+      "role": "source",
+      "id": "S10"
+    },
+    {
+      "type": "lower_reach",
+      "land_use": "urban",
+      "lat": 39.4,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S13"
+    },
+    {
+      "type": "tributary",
+      "land_use": "forest",
+      "lat": 39.5,
+      "lon": -75.0,
+      "source_sink": -3.0,
+      "role": "sink",
+      "id": "S12"
+    },
+    {
+      "type": "lower_reach",
+      "land_use": "urban",
+      "lat": 39.3,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S14"
+    },
+    {
+      "type": "outlet",
+      "land_use": "urban",
+      "lat": 39.2,
+      "lon": -74.9,
+      "source_sink": 0.0,
+      "role": "neutral",
+      "id": "S15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "S1",
+      "target": "S4"
+    },
+    {
+      "source": "S4",
+      "target": "S7"
+    },
+    {
+      "source": "S2",
+      "target": "S4"
+    },
+    {
+      "source": "S3",
+      "target": "S5"
+    },
+    {
+      "source": "S5",
+      "target": "S8"
+    },
+    {
+      "source": "S7",
+      "target": "S9"
+    },
+    {
+      "source": "S8",
+      "target": "S9"
+    },
+    {
+      "source": "S6",
+      "target": "S8"
+    },
+    {
+      "source": "S9",
+      "target": "S11"
+    },
+    {
+      "source": "S11",
+      "target": "S13"
+    },
+    {
+      "source": "S10",
+      "target": "S11"
+    },
+    {
+      "source": "S13",
+      "target": "S14"
+    },
+    {
+      "source": "S12",
+      "target": "S13"
+    },
+    {
+      "source": "S14",
+      "target": "S15"
+    }
+  ]
+}
